@@ -11,9 +11,7 @@
 		"md": "bun run scripts/md.ts",
 		"docs": "bun run scripts/docs.ts",
 		"submodule:init": "git submodule update --init --recursive",
-		"submodule:update": "git submodule update --remote --merge",
-		"submodule:pull": "git pull origin main --recurse-submodules",
-		"submodule:push": "git push --recurse-submodules=on-demand"
+		"submodule:update": "git submodule update --remote --merge"
 	},
 	"devDependencies": {
 		"@types/bun": "latest",
