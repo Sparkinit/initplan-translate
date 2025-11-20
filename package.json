@@ -9,7 +9,7 @@
 		"data": "bun run scripts/data.ts",
 		"html": "bun run scripts/html.ts",
 		"md": "bun run scripts/md.ts",
-		"test": "bun run scripts/test.ts",
+		"docs": "bun run scripts/docs.ts",
 		"submodule:init": "git submodule update --init --recursive",
 		"submodule:update": "git submodule update --remote --merge",
 		"submodule:pull": "git pull origin main --recurse-submodules",
