@@ -4,9 +4,12 @@
 	"type": "module",
 	"private": true,
 	"scripts": {
+		"dev": "bun run index.ts",
 		"fetch": "bun run scripts/fetch.ts",
 		"data": "bun run scripts/data.ts",
-		"crawl": "bun run scripts/crawl.ts",
+		"html": "bun run scripts/html.ts",
+		"md": "bun run scripts/md.ts",
+		"test": "bun run scripts/test.ts",
 		"submodule:init": "git submodule update --init --recursive",
 		"submodule:update": "git submodule update --remote --merge",
 		"submodule:pull": "git pull origin main --recurse-submodules",
@@ -21,12 +24,24 @@
 		"typescript": "^5.9.3"
 	},
 	"dependencies": {
+		"@ai-sdk/openai": "^2.0.69",
 		"@larksuiteoapi/node-sdk": "^1.55.0",
 		"@mozilla/readability": "^0.6.0",
-		"@types/turndown": "^5.0.5",
-		"crawlee": "^3.15.1",
-		"jsdom": "^27.0.0",
-		"turndown": "^7.2.1",
-		"turndown-plugin-gfm": "^1.0.2"
+		"@types/marked": "^6.0.0",
+		"@types/turndown": "^5.0.6",
+		"@types/unist": "^3.0.3",
+		"@voltagent/core": "^1.2.6",
+		"@voltagent/server-hono": "^1.2.4",
+		"@voltagent/voltagent-memory": "^0.1.4",
+		"crawlee": "^3.15.3",
+		"jsdom": "^27.2.0",
+		"marked": "^17.0.0",
+		"remark": "^15.0.1",
+		"remark-parse": "^11.0.0",
+		"remark-stringify": "^11.0.0",
+		"turndown": "^7.2.2",
+		"turndown-plugin-gfm": "^1.0.2",
+		"unified": "^11.0.5",
+		"unist-util-visit": "^5.0.0"
 	}
 }
