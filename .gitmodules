@@ -16,3 +16,6 @@
 [submodule "agents"]
 	path = agents
 	url = git@github.com:Sparkinit/initplan-translate-agents.git
+[submodule "tools"]
+	path = tools
+	url = git@github.com:Sparkinit/initplan-translate-tools.git
