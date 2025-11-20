@@ -19,3 +19,6 @@
 [submodule "tools"]
 	path = tools
 	url = git@github.com:Sparkinit/initplan-translate-tools.git
+[submodule "app"]
+	path = app
+	url = git@github.com:Sparkinit/initplan-translate-app.git

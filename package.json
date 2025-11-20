@@ -1,10 +1,10 @@
 {
 	"name": "bigtranslation-monitor",
-	"module": "index.ts",
+	"module": "app/index.ts",
 	"type": "module",
 	"private": true,
 	"scripts": {
-		"dev": "bun run index.ts",
+		"dev": "bun run app/index.ts",
 		"fetch": "bun run scripts/fetch.ts",
 		"data": "bun run scripts/data.ts",
 		"html": "bun run scripts/html.ts",
