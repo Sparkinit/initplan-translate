@@ -13,3 +13,6 @@
 [submodule "origin"]
 	path = origin
 	url = git@github.com:Sparkinit/initplan-translate-origin.git
+[submodule "agents"]
+	path = agents
+	url = git@github.com:Sparkinit/initplan-translate-agents.git
